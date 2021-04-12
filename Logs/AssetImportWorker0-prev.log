@@ -1,0 +1,150 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 15063.1418; Version 1703; 64bit' Language: 'en' Physical Memory: 16320 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Programs\Unity\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Programming/UnityGames/ElectroLoop/ElectroLoop
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51580
+Successfully changed project path to: E:/Programming/UnityGames/ElectroLoop/ElectroLoop
+E:/Programming/UnityGames/ElectroLoop/ElectroLoop
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path E:/Programs/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Programming/UnityGames/ElectroLoop/ElectroLoop/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.6109
+Initialize mono
+Mono path[0] = 'E:/Programs/Unity/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Programs/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Programs/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Programs/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Programs/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001013 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1988 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2413.
+Total: 2.665800 ms (FindLiveObjects: 0.251031 ms CreateObjectMapping: 0.050014 ms MarkObjects: 2.205096 ms  DeleteObjects: 0.158056 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(4e2611b68bad3e944873b2c24b8a1b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4e2611b68bad3e944873b2c24b8a1b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c277465488bb3f41d8e3ffac4d4432') in 0.009990 seconds
+  Import took 0.013246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.434246 seconds.
+  path: Assets/Live2D/Cubism
+  artifactKey: Guid(d6ad133bb0a773948a7a7623636de512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Cubism using Guid(d6ad133bb0a773948a7a7623636de512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cabe7568b42c0308ff531ab3312cafe') in 0.008952 seconds
+  Import took 0.012462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.720428 seconds.
+  path: Assets/Live2D
+  artifactKey: Guid(37c9d08d4153f9447aab204c87ddafc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D using Guid(37c9d08d4153f9447aab204c87ddafc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6365e60ede34ca09cb9d0fd20371dd80') in 0.014531 seconds
+  Import took 0.020049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.672626 seconds.
+  path: Assets/Live2D/Live2DModels
+  artifactKey: Guid(974b9a81873094049880963e333d3bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Live2DModels using Guid(974b9a81873094049880963e333d3bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6480c38559d256bc9108a933f8f951') in 0.006673 seconds
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.426646 seconds.
+  path: Assets/Live2D/Live2DModels/Wheel
+  artifactKey: Guid(3c4e63a594fac8b4aa73e877afc71c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Live2DModels/Wheel using Guid(3c4e63a594fac8b4aa73e877afc71c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e01045724a48123a015dccc2337293e') in 0.006858 seconds
+  Import took 0.010177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054804 seconds.
+  path: Assets/Live2D/Live2DModels/Wheel/wheel-test.asset
+  artifactKey: Guid(7f419d2fa2dda2f48a9694d411fd5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Live2DModels/Wheel/wheel-test.asset using Guid(7f419d2fa2dda2f48a9694d411fd5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecab54d4b030f1d947fa203efd890b9e') in 0.059482 seconds
+  Import took 0.062558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Live2D/Live2DModels/Wheel/wheel-test.prefab
+  artifactKey: Guid(c529afdbc19e50c41b6315fff0ec7b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Live2DModels/Wheel/wheel-test.prefab using Guid(c529afdbc19e50c41b6315fff0ec7b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4943ebacd3b7da909d268706c6603f2d') in 0.041629 seconds
+  Import took 0.044617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Live2D/Live2DModels/Wheel/WheelTexture.png
+  artifactKey: Guid(7318b4ca20e13104b86c0519f5db1ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Live2DModels/Wheel/WheelTexture.png using Guid(7318b4ca20e13104b86c0519f5db1ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01ec113cad5d872cfef95272253fc81') in 0.220965 seconds
+  Import took 0.223739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.362214 seconds.
+  path: Assets/Live2D/Live2DModels/Wheel/wheel-test.asset
+  artifactKey: Guid(7f419d2fa2dda2f48a9694d411fd5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Live2DModels/Wheel/wheel-test.asset using Guid(7f419d2fa2dda2f48a9694d411fd5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a57bd5a704e406d75aea31a88f4f340') in 0.003442 seconds
+  Import took 0.006706 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

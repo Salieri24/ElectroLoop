@@ -1,0 +1,27 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Body X"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "Power",
+			"GroupId": "",
+			"Name": "Power"
+		},
+		{
+			"Id": "Speed",
+			"GroupId": "",
+			"Name": "Speed"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": []
+}
