@@ -7,6 +7,8 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] private LayerMask platformLayerMask;
     [SerializeField] private LayerMask deathLayerMask;
+    private Animator animator;
+
     //private CubismModel model;
     private Rigidbody2D rigid;
     private CircleCollider2D circleColl;
@@ -33,6 +35,8 @@ public class Movement : MonoBehaviour
         energySlider.minValue = 0f;
 
         energyCost *= 10;  //amplify the energy cost
+
+        animator = this.GetComponentInChildren<Animator>();
 
         rigid = GetComponent<Rigidbody2D>();
         circleColl = GetComponent<CircleCollider2D>();
@@ -69,6 +73,7 @@ public class Movement : MonoBehaviour
         }
 
         energySlider.value = energy;
+        animator.SetFloat("Energy", energy);
 
         targetText.text = "Thrust = " + thrust + "\nmaxSpeed = " + maxSpeed + "\nVelocity = " + rigid.velocity + "\n";
         targetText.text += "Applied force:" + v + "\nGrounded: " + grounded + "\nGeneratedEnergy: "+ generatedEnergy;
