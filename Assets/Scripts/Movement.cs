@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//using Live2D.Cubism.Core;
 using UnityEngine.UI;
 
 public class Movement : MonoBehaviour
@@ -9,7 +8,6 @@ public class Movement : MonoBehaviour
     [SerializeField] private LayerMask deathLayerMask;
     private Animator animator;
 
-    //private CubismModel model;
     private Rigidbody2D rigid;
     private CircleCollider2D circleColl;
 
@@ -29,7 +27,6 @@ public class Movement : MonoBehaviour
     public void Start()
     {
         Debug.developerConsoleVisible = true;
-        //model = GetComponent<CubismModel>();
 
         energySlider.maxValue = maxEnergy;
         energySlider.minValue = 0f;
